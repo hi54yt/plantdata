@@ -1,6 +1,7 @@
 class PlantsController < ApplicationController
   def index
-    @plants = Plant.search(params[:search])
+    @search = Plant.search(params[:search])
+    @plants = @search.page params[:page]
   end
   
   def show

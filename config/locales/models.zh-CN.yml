@@ -1,0 +1,7 @@
+zh-CN:
+  activerecord:
+    models:
+      plant: "植物信息"
+    attributes:
+      plant:
+        zw: "中文名称"
