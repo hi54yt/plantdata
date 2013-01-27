@@ -7,10 +7,6 @@ gem 'rails', '3.2.8'
 
 gem 'mysql2'
 
-group :production do
-  gem 'pg'
-end
-
 gem 'twitter-bootstrap-rails'
 
 
