@@ -16,7 +16,17 @@
   margin-left: auto;
   width: 940px;
   background: #FFF;
-  padding: 20px;
+  padding: 40px 40px 20px 40px;
+  
+  margin: 0;
+  -webkit-border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
+  border: 1px solid #ddd;
+  border-top: 0 none;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
 .table thead {
